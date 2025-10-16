@@ -54,6 +54,17 @@ nav {
     padding: 16px 0;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -524,11 +535,15 @@ footer {
         gap: 32px;
     }
 
+    .nav-left {
+        gap: 24px;
+    }
+
     .nav-links {
         gap: 16px;
     }
 
-    .nav-links a:not(.cta-button) {
+    .nav-links a {
         display: none;
     }
 
