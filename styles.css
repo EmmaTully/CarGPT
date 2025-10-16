@@ -54,16 +54,11 @@ nav {
     padding: 16px 0;
 }
 
-nav .container {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
 .nav-left {
     display: flex;
     align-items: center;
     gap: 60px;
-    margin-left: -24px;
+    margin-left: 0;
 }
 
 .nav-right {
@@ -75,6 +70,7 @@ nav .container {
     display: flex;
     align-items: center;
     color: var(--text-primary);
+    margin-left: -24px;
 }
 
 .logo-text {
