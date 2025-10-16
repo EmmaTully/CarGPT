@@ -1,8 +1,8 @@
-# CarGPT
+# CarChat
 
 **Bring Your Dealership to 800M+ ChatGPT Users**
 
-CarGPT is a Hammer AI product that enables auto dealerships to make their entire vehicle inventory available directly inside ChatGPT conversations. When buyers search for vehicles in ChatGPT, your inventory appears at the perfect moment.
+CarChat is a Hammer AI product that enables auto dealerships to make their entire vehicle inventory available directly inside ChatGPT conversations. When buyers search for vehicles in ChatGPT, your inventory appears at the perfect moment.
 
 ## Features
 
@@ -14,13 +14,13 @@ CarGPT is a Hammer AI product that enables auto dealerships to make their entire
 
 ## Live Site
 
-Visit [CarGPT Landing Page](https://your-username.github.io/CarGPT/) (update after deployment)
+Visit [CarChat Landing Page](https://carchat.pro)
 
 ## Local Development
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/CarGPT.git
+git clone https://github.com/EmmaTully/CarGPT.git
 
 # Navigate to the directory
 cd CarGPT
@@ -44,7 +44,7 @@ This site is deployed using GitHub Pages.
 
 ## About Hammer AI
 
-CarGPT is built by Hammer AI, connecting dealerships with modern AI-powered customer experiences.
+CarChat is built by Hammer AI, connecting dealerships with modern AI-powered customer experiences.
 
 ---
 

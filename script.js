@@ -13,7 +13,7 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
     };
     
     // Log to console (in production, this would send to your backend/CRM)
-    console.log('New CarGPT Signup:', formData);
+    console.log('New CarChat Signup:', formData);
     
     // Hide form and show success message
     document.getElementById('signupForm').style.display = 'none';

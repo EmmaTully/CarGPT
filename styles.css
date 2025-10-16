@@ -88,8 +88,8 @@ header {
     color: var(--text-primary);
 }
 
-.logo-gpt {
-    letter-spacing: -3px;
+.logo-chat {
+    letter-spacing: -2px;
 }
 
 .nav-links {
