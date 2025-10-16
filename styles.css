@@ -57,9 +57,19 @@ nav {
 .logo {
     display: flex;
     align-items: center;
-    gap: 12px;
-    font-size: 24px;
-    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.85;
+}
+
+.logo-line {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
     color: var(--text-primary);
 }
 
