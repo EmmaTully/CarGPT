@@ -73,6 +73,10 @@ nav {
     color: var(--text-primary);
 }
 
+.logo-gpt {
+    letter-spacing: 0.5px;
+}
+
 .nav-links {
     display: flex;
     gap: 32px;
