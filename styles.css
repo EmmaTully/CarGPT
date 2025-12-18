@@ -92,7 +92,7 @@ body {
     backdrop-filter: blur(10px);
 }
 
-.legal-toc h2 {
+.legal-toc-title {
     font-size: 14px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
