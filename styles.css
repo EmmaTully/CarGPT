@@ -37,6 +37,81 @@ body {
     padding: 0 24px;
 }
 
+/* Legal Pages */
+.logo-link {
+    text-decoration: none;
+}
+
+.legal-page {
+    padding: 80px 0 120px;
+    background: linear-gradient(180deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
+}
+
+.legal-container {
+    max-width: 900px;
+}
+
+.legal-header {
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.legal-header h1 {
+    font-size: 48px;
+    -webkit-text-fill-color: initial;
+    background: none;
+    margin-bottom: 8px;
+}
+
+.legal-effective-date {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.legal-content {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.legal-content p {
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.legal-content h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+.legal-content h3 {
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.legal-content ul {
+    margin: 8px 0 18px 22px;
+    color: var(--text-secondary);
+}
+
+.legal-content li {
+    margin-bottom: 8px;
+}
+
+.legal-content a {
+    color: var(--primary-green);
+    text-decoration: none;
+}
+
+.legal-content a:hover {
+    text-decoration: underline;
+}
+
 /* Header */
 header {
     background-color: var(--darker-bg);
@@ -561,6 +636,10 @@ footer {
 
     .signup-box {
         padding: 32px 24px;
+    }
+
+    .legal-content {
+        padding: 24px;
     }
 }
 
