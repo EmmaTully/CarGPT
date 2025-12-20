@@ -4,16 +4,13 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
     
     // Get form values
     const formData = {
-        dealershipName: document.getElementById('dealershipName').value,
-        contactName: document.getElementById('contactName').value,
+        name: document.getElementById('name').value,
         email: document.getElementById('email').value,
-        phone: document.getElementById('phone').value,
-        location: document.getElementById('location').value,
         timestamp: new Date().toISOString()
     };
     
-    // Log to console (in production, this would send to your backend/CRM)
-    console.log('New CarChat Signup:', formData);
+    // Log to console (in production, this would send to your backend/email provider)
+    console.log('New CarChat Updates Signup:', formData);
     
     // Hide form and show success message
     document.getElementById('signupForm').style.display = 'none';
